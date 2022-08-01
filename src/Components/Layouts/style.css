@@ -1,0 +1,33 @@
+li.ant-menu-item-selected {
+    background-color: #FFB800 !important;
+    color: #FFFFFF;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    padding: 15px 16px 15px 24px;
+    gap: 12px;
+    width: 252px;
+    height: 56px;
+
+    border-radius: 8px;
+
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+}
+.element.style {
+    padding: 0 20px;
+}
+input.ant-input {
+    border-radius: 8px;
+}
+.ant-menu-inline .ant-menu-selected::after, .ant-menu-inline .ant-menu-item-selected::after {
+    transform: scaleY(0) !important
+
+}
+li.ant-menu-item-icon {
+    color: #1E0D03;
+}
+.ant-menu-inline, .ant-menu-vertical, .ant-menu-vertical-left {
+    border-right: 0px !important;
+}
